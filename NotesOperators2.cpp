@@ -23,9 +23,9 @@ int main ()
     c %= 2001; // Use the modulus assignment operator (%=) to get the remainder of c divided by 2024
     cout << "This year is " << c * 81 << endl; // Output the value of c * 81 to the console
    cout << "This year is " << (y == x) + 2024 << endl; // Use the equality operator (==) to compare y and x, returns 1 (true) then adds 2024
-   cout << "This year is " << (a > x) + 2025 << endl; // Use the greater than operator (>) to compare y and x, returns 0 (false) then adds 2024
+   cout << "This year is " << (a > x) + 2025 << endl; // Use the greater than operator (>) to compare y and x, returns 0 (false) then adds 2025
    cout << "This year is " << (a >= x) + 2024 << endl; // Use the greater than or equal to operator (>=) to compare y and x, returns 1 (true) then adds 2024
-   cout << "This year is " << (y < x && a > x) + 2025 << endl; // Use the logical AND operator (&&) to compare y and x, and a and x, returns 0 (false) then adds 2024
+   cout << "This year is " << (y < x && a > x) + 2025 << endl; // Use the logical AND operator (&&) to compare y and x, and a and x, returns 0 (false) then adds 2025
    cout << "This year is " << (y < x || a == x) + 2024 << endl; // Use the logical OR operator (||) to compare y and x, and a and x, returns 1 (true) then adds 2024
    cout << "This year is " << !(y < x) + 2024 << endl; // Use the logical NOT operator (!) to negate the comparison of y and x, returns 1 (true) then adds 2024
    return 0;
